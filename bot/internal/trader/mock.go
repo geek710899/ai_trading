@@ -15,6 +15,11 @@ const (
     Sell Side = "sell"
 )
 
+type Trader interface {
+    PlaceOrder(symbol string, side Side, orderType string, price, size float64) Order
+    ClosePosition(symbol string, side Side, orderType string, price, size float64) Order
+}
+
 type Order struct {
     ID        string
     Symbol    string
@@ -51,8 +56,7 @@ func (m *Mock) PlaceOrder(symbol string, side Side, orderType string, price, siz
         CreatedAt: time.Now(),
     }
     m.orders[id] = o
-    m.log.Info("mock_order_create", "id", id, "symbol", symbol, "side", string(side))
-    // Simulate fill after delay
+    m.log.Trade("模拟_开仓委托", "委托ID", id, "币对", symbol, "方向", string(side))
     go func() {
         time.Sleep(time.Second * 2)
         m.mu.Lock()
@@ -60,8 +64,17 @@ func (m *Mock) PlaceOrder(symbol string, side Side, orderType string, price, siz
         o.Status = "filled"
         m.orders[id] = o
         m.mu.Unlock()
-        m.log.Info("mock_order_fill", "id", id, "symbol", symbol, "type", orderType)
+        m.log.Trade("模拟_委托成交", "委托ID", id, "币对", symbol, "类型", orderType)
     }()
+    return o
+}
+
+func (m *Mock) ClosePosition(symbol string, side Side, orderType string, price, size float64) Order {
+    var closeSide Side
+    if side == Buy { closeSide = Sell } else { closeSide = Buy }
+    id := m.newID()
+    o := Order{ID: id, Symbol: symbol, Side: closeSide, OrderType: orderType, Price: price, Size: size, Status: "filled", CreatedAt: time.Now()}
+    m.log.Trade("模拟_平仓委托", "委托ID", id, "币对", symbol, "方向", string(closeSide))
     return o
 }
 

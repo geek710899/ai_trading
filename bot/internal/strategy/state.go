@@ -36,5 +36,4 @@ type symbolState struct {
     cooldown    time.Duration
 }
 
-func newSymbolState() *symbolState { return &symbolState{basis: newSeries(120), cooldown: 5 * time.Minute} }
-
+func newSymbolState(cd time.Duration) *symbolState { return &symbolState{basis: newSeries(120), cooldown: cd} }

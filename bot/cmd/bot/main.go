@@ -2,6 +2,7 @@ package main
 
 import (
     "context"
+    "strings"
     "time"
     "github.com/weex/ai_trading/bot/internal/config"
     "github.com/weex/ai_trading/bot/internal/logger"
@@ -37,8 +38,14 @@ func main() {
         log.Info("account_ping", "msg", "private API reachable")
     }
 
-    m := trader.NewMock(log)
-    eng := strategy.NewEngine(cfg, client, m, log)
+    var tr trader.Trader
+    if strings.ToLower(cfg.TraderMode) == "real" {
+        tr = trader.NewWeex(client, log)
+        log.Info("trader_mode", "mode", "real")
+    } else {
+        tr = trader.NewMock(log)
+        log.Info("trader_mode", "mode", "mock")
+    }
+    eng := strategy.NewEngine(cfg, client, tr, log)
     eng.Run(ctx)
 }
-
