@@ -1,0 +1,104 @@
+2025-11-25T16:07:34+08:00 INFO sync_time server_ts=1764058055254 drift_ms=1211
+2025-11-25T16:07:39+08:00 INFO query_ticker symbol=cmt_btcusdt last=87385.5 bid=87385.4 ask=87385.5 mark=87393.4 index=87424.455
+2025-11-25T16:07:39+08:00 INFO query_index symbol=cmt_btcusdt index=87424.455
+2025-11-25T16:07:39+08:00 INFO query_depth symbol=cmt_btcusdt asks=15 bids=15
+2025-11-25T16:07:39+08:00 INFO query_fund_rate symbol=cmt_btcusdt fundingRate=0.00002495
+2025-11-25T16:07:39+08:00 INFO query_ticker symbol=cmt_ethusdt last=2901.23 bid=2901.22 ask=2901.23 mark=2901.78 index=2902.98625
+2025-11-25T16:07:39+08:00 INFO query_index symbol=cmt_ethusdt index=2902.98625
+2025-11-25T16:07:39+08:00 INFO query_depth symbol=cmt_ethusdt asks=15 bids=15
+2025-11-25T16:07:39+08:00 INFO query_fund_rate symbol=cmt_ethusdt fundingRate=0.00003462
+2025-11-25T16:07:39+08:00 INFO query_ticker symbol=cmt_solusdt last=136.38 bid=136.37 ask=136.38 mark=136.4 index=136.46788
+2025-11-25T16:07:39+08:00 INFO query_index symbol=cmt_solusdt index=136.45036
+2025-11-25T16:07:40+08:00 INFO query_depth symbol=cmt_solusdt asks=15 bids=15
+2025-11-25T16:07:40+08:00 INFO query_fund_rate symbol=cmt_solusdt fundingRate=0.00008654
+2025-11-25T16:07:40+08:00 INFO query_ticker symbol=cmt_dogeusdt last=0.14940 bid=0.14939 ask=0.14940 mark=0.14942 index=0.1494975
+2025-11-25T16:07:40+08:00 INFO query_index symbol=cmt_dogeusdt index=0.1494975
+2025-11-25T16:07:40+08:00 INFO query_depth symbol=cmt_dogeusdt asks=15 bids=15
+2025-11-25T16:07:40+08:00 INFO query_fund_rate symbol=cmt_dogeusdt fundingRate=0.00003018
+2025-11-25T16:07:40+08:00 INFO query_ticker symbol=cmt_xrpusdt last=2.2144 bid=2.2143 ask=2.2144 mark=2.2144 index=2.21525
+2025-11-25T16:07:40+08:00 INFO query_index symbol=cmt_xrpusdt index=2.215175
+2025-11-25T16:07:40+08:00 INFO query_depth symbol=cmt_xrpusdt asks=15 bids=15
+2025-11-25T16:07:40+08:00 INFO query_fund_rate symbol=cmt_xrpusdt fundingRate=0.00003060
+2025-11-25T16:07:40+08:00 INFO query_ticker symbol=cmt_adausdt last=0.4184 bid=0.4184 ask=0.4185 mark=0.4184 index=0.4187125
+2025-11-25T16:07:41+08:00 INFO query_index symbol=cmt_adausdt index=0.4187125
+2025-11-25T16:07:41+08:00 INFO query_depth symbol=cmt_adausdt asks=15 bids=15
+2025-11-25T16:07:41+08:00 INFO query_fund_rate symbol=cmt_adausdt fundingRate=0.00001123
+2025-11-25T16:07:41+08:00 INFO query_ticker symbol=cmt_bnbusdt last=857.45 bid=857.44 ask=857.45 mark=857.45 index=857.1125
+2025-11-25T16:07:41+08:00 INFO query_index symbol=cmt_bnbusdt index=857.1125
+2025-11-25T16:07:41+08:00 INFO query_depth symbol=cmt_bnbusdt asks=15 bids=15
+2025-11-25T16:07:41+08:00 INFO query_fund_rate symbol=cmt_bnbusdt fundingRate=-0.000086
+2025-11-25T16:07:41+08:00 INFO query_ticker symbol=cmt_suiusdt last=1.5236 bid=1.5235 ask=1.5236 mark=1.5237 index=1.5244125
+2025-11-25T16:07:41+08:00 INFO query_index symbol=cmt_suiusdt index=1.5243875
+2025-11-25T16:07:41+08:00 INFO query_depth symbol=cmt_suiusdt asks=15 bids=15
+2025-11-25T16:07:41+08:00 INFO query_fund_rate symbol=cmt_suiusdt fundingRate=-0.00003283
+2025-11-25T16:07:42+08:00 INFO query_ticker symbol=cmt_ltcusdt last=84.21 bid=84.20 ask=84.21 mark=84.22 index=84.2875
+2025-11-25T16:07:42+08:00 INFO query_index symbol=cmt_ltcusdt index=84.2875
+2025-11-25T16:07:42+08:00 INFO query_depth symbol=cmt_ltcusdt asks=15 bids=15
+2025-11-25T16:07:42+08:00 INFO query_fund_rate symbol=cmt_ltcusdt fundingRate=0.00000327
+2025-11-25T16:07:42+08:00 INFO query_ticker symbol=cmt_linkusdt last=12.832 bid=12.831 ask=12.832 mark=12.834 index=12.843
+2025-11-25T16:07:42+08:00 INFO query_index symbol=cmt_linkusdt index=12.843
+2025-11-25T16:07:42+08:00 INFO query_depth symbol=cmt_linkusdt asks=15 bids=15
+2025-11-25T16:07:42+08:00 INFO query_fund_rate symbol=cmt_linkusdt fundingRate=-0.00003569
+2025-11-25T16:07:42+08:00 INFO query_ticker symbol=cmt_trxusdt last=0.27243 bid=0.27242 ask=0.27243 mark=0.27245 index=0.27261
+2025-11-25T16:07:42+08:00 INFO query_index symbol=cmt_trxusdt index=0.27261
+2025-11-25T16:07:42+08:00 INFO query_depth symbol=cmt_trxusdt asks=15 bids=15
+2025-11-25T16:07:42+08:00 INFO query_fund_rate symbol=cmt_trxusdt fundingRate=-0.00019277
+2025-11-25T16:07:43+08:00 INFO query_ticker symbol=cmt_hbarusdt last=0.14417 bid=0.14417 ask=0.14418 mark=0.14413 index=0.1442275
+2025-11-25T16:07:43+08:00 INFO query_index symbol=cmt_hbarusdt index=0.14422875
+2025-11-25T16:07:43+08:00 INFO query_depth symbol=cmt_hbarusdt asks=15 bids=15
+2025-11-25T16:07:43+08:00 INFO query_fund_rate symbol=cmt_hbarusdt fundingRate=-0.00005047
+2025-11-25T16:07:43+08:00 INFO query_ticker symbol=cmt_tonusdt last=1.5094 bid=1.5093 ask=1.5094 mark=1.5095 index=1.509833333
+2025-11-25T16:07:43+08:00 INFO query_index symbol=cmt_tonusdt index=1.509833333
+2025-11-25T16:07:43+08:00 INFO query_depth symbol=cmt_tonusdt asks=15 bids=15
+2025-11-25T16:07:43+08:00 INFO query_fund_rate symbol=cmt_tonusdt fundingRate=0.00005000
+2025-11-25T16:07:43+08:00 INFO query_ticker symbol=cmt_uniusdt last=6.217 bid=6.216 ask=6.217 mark=6.217 index=6.22225
+2025-11-25T16:07:43+08:00 INFO query_index symbol=cmt_uniusdt index=6.222625
+2025-11-25T16:07:44+08:00 INFO query_depth symbol=cmt_uniusdt asks=15 bids=15
+2025-11-25T16:07:44+08:00 INFO query_fund_rate symbol=cmt_uniusdt fundingRate=-0.00002982
+2025-11-25T16:07:44+08:00 INFO query_ticker symbol=cmt_enausdt last=0.2592 bid=0.2591 ask=0.2592 mark=0.2592 index=0.2594
+2025-11-25T16:07:44+08:00 INFO query_index symbol=cmt_enausdt index=0.2594
+2025-11-25T16:07:44+08:00 INFO query_depth symbol=cmt_enausdt asks=15 bids=15
+2025-11-25T16:07:44+08:00 INFO query_fund_rate symbol=cmt_enausdt fundingRate=0.00000388
+2025-11-25T16:07:44+08:00 INFO query_ticker symbol=cmt_btcusdt last=87385.5 bid=87385.4 ask=87385.5 mark=87389.2 index=87421.801
+2025-11-25T16:07:44+08:00 INFO query_index symbol=cmt_btcusdt index=87421.801
+2025-11-25T16:07:44+08:00 INFO query_depth symbol=cmt_btcusdt asks=15 bids=15
+2025-11-25T16:07:44+08:00 INFO query_fund_rate symbol=cmt_btcusdt fundingRate=0.00002495
+2025-11-25T16:07:44+08:00 INFO query_ticker symbol=cmt_ethusdt last=2901.00 bid=2900.99 ask=2901.00 mark=2901.09 index=2902.60125
+2025-11-25T16:07:44+08:00 INFO query_index symbol=cmt_ethusdt index=2902.6
+2025-11-25T16:07:45+08:00 INFO query_depth symbol=cmt_ethusdt asks=15 bids=15
+2025-11-25T16:07:45+08:00 INFO query_fund_rate symbol=cmt_ethusdt fundingRate=0.00003462
+2025-11-25T16:07:45+08:00 INFO query_ticker symbol=cmt_solusdt last=136.37 bid=136.37 ask=136.38 mark=136.37 index=136.4326
+2025-11-25T16:07:45+08:00 INFO query_index symbol=cmt_solusdt index=136.4326
+2025-11-25T16:07:45+08:00 INFO query_depth symbol=cmt_solusdt asks=15 bids=15
+2025-11-25T16:07:45+08:00 INFO query_fund_rate symbol=cmt_solusdt fundingRate=0.00008654
+2025-11-25T16:07:45+08:00 INFO query_ticker symbol=cmt_dogeusdt last=0.14939 bid=0.14939 ask=0.14940 mark=0.1494 index=0.1494775
+2025-11-25T16:07:45+08:00 INFO query_index symbol=cmt_dogeusdt index=0.1494725
+2025-11-25T16:07:45+08:00 INFO query_depth symbol=cmt_dogeusdt asks=15 bids=15
+2025-11-25T16:07:45+08:00 INFO query_fund_rate symbol=cmt_dogeusdt fundingRate=0.00003018
+2025-11-25T16:07:45+08:00 INFO query_ticker symbol=cmt_xrpusdt last=2.2144 bid=2.2143 ask=2.2144 mark=2.2144 index=2.215175
+2025-11-25T16:07:46+08:00 INFO query_index symbol=cmt_xrpusdt index=2.215175
+2025-11-25T16:07:46+08:00 INFO query_depth symbol=cmt_xrpusdt asks=15 bids=15
+2025-11-25T16:07:46+08:00 INFO query_fund_rate symbol=cmt_xrpusdt fundingRate=0.00003060
+2025-11-25T16:07:46+08:00 INFO query_ticker symbol=cmt_adausdt last=0.4183 bid=0.4182 ask=0.4183 mark=0.4183 index=0.4186
+2025-11-25T16:07:46+08:00 INFO query_index symbol=cmt_adausdt index=0.4186
+2025-11-25T16:07:46+08:00 INFO query_depth symbol=cmt_adausdt asks=15 bids=15
+2025-11-25T16:07:46+08:00 INFO query_fund_rate symbol=cmt_adausdt fundingRate=0.00001123
+2025-11-25T16:07:46+08:00 INFO query_ticker symbol=cmt_bnbusdt last=857.39 bid=857.38 ask=857.39 mark=857.4 index=857.00375
+2025-11-25T16:07:46+08:00 INFO query_index symbol=cmt_bnbusdt index=857.00875
+2025-11-25T16:07:46+08:00 INFO query_depth symbol=cmt_bnbusdt asks=15 bids=15
+2025-11-25T16:07:46+08:00 INFO query_fund_rate symbol=cmt_bnbusdt fundingRate=-0.000086
+2025-11-25T16:07:47+08:00 INFO query_ticker symbol=cmt_suiusdt last=1.5237 bid=1.5236 ask=1.5237 mark=1.5237 index=1.524425
+2025-11-25T16:07:47+08:00 INFO query_index symbol=cmt_suiusdt index=1.52445
+2025-11-25T16:07:47+08:00 INFO query_depth symbol=cmt_suiusdt asks=15 bids=15
+2025-11-25T16:07:47+08:00 INFO query_fund_rate symbol=cmt_suiusdt fundingRate=-0.00003283
+2025-11-25T16:07:47+08:00 INFO query_ticker symbol=cmt_ltcusdt last=84.22 bid=84.22 ask=84.23 mark=84.22 index=84.285
+2025-11-25T16:07:47+08:00 INFO query_index symbol=cmt_ltcusdt index=84.285
+2025-11-25T16:07:47+08:00 INFO query_depth symbol=cmt_ltcusdt asks=15 bids=15
+2025-11-25T16:07:47+08:00 INFO query_fund_rate symbol=cmt_ltcusdt fundingRate=0.00000327
+2025-11-25T16:07:47+08:00 INFO query_ticker symbol=cmt_linkusdt last=12.832 bid=12.831 ask=12.832 mark=12.834 index=12.843375
+2025-11-25T16:07:47+08:00 INFO query_index symbol=cmt_linkusdt index=12.8435
+2025-11-25T16:07:47+08:00 INFO query_depth symbol=cmt_linkusdt asks=15 bids=15
+2025-11-25T16:07:48+08:00 INFO query_fund_rate symbol=cmt_linkusdt fundingRate=-0.00003569
+2025-11-25T16:07:48+08:00 INFO query_ticker symbol=cmt_trxusdt last=0.27243 bid=0.27242 ask=0.27243 mark=0.27245 index=0.27261125
+2025-11-25T16:07:48+08:00 INFO query_index symbol=cmt_trxusdt index=0.27261375
+2025-11-25T16:07:48+08:00 INFO query_depth symbol=cmt_trxusdt asks=15 bids=15

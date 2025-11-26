@@ -1,0 +1,4 @@
+2025-11-25T16:07:34+08:00 ERROR http_private path=/capi/v2/account/accounts code=400 body={"code":"40753","msg":"api权限已禁用,如有疑问请联系客服","requestTime":1764058055333,"data":null}
+2025-11-25T16:07:34+08:00 ERROR account_ping err=status 400
+2025-11-25T16:07:43+08:00 ERROR http_public path=/capi/v2/market/ticker code=400 body={"code":"40020","msg":"参数symbol错误","requestTime":1764058064972,"data":null}
+2025-11-25T16:07:43+08:00 ERROR query_ticker symbol=cmt_shibusdt err=status 400
